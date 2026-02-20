@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/SoySH/CertMakerGUI)
+
 ## 🖥 Compilación desde código fuente
 
 ### Ubuntu
