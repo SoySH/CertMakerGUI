@@ -18,7 +18,7 @@ sudo apt update && sudo apt install -y \
 
 mkdir cert-maker-gui && cd cert-maker-gui
 
-4. Crear y activar entorno virtual:
+3. Crear y activar entorno virtual:
 
 python -m venv .venv
 
