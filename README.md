@@ -36,6 +36,38 @@ pyinstaller --onefile --noconsole --name CertMakerGUI app.py
 
 6. El ejecutable se genera en dist/.
 
-NOTA: Si no abre con doble clic, dar permiso de ejecución:
+---
+
+# CertMaker LINUX
+
+**Cert-Maker** es una herramienta multiplataforma (Windows y Ubuntu) para generar certificados TLS autofirmados de manera rápida y sencilla.  
+Es totalmente portable, no requiere Python instalado y ofrece una interfaz gráfica intuitiva basada en **PyQt5**.
+
+## Requisito minimo de sistema:
+ 🔹Ubuntu 22.04.5
+
+## Características
+
+- **Generación de CA** y certificados de servidor.
+- Soporte para **SANs** (Subject Alternative Names).
+- Duración del certificado del servidor en días.
+- **Modo rápido**: utiliza valores predeterminados para generar certificados en segundos.
+- **Modo manual**: permite especificar campos como `CN`, `O`, `OU`, `C`, `ST`, `L`, `NS`.
+- Exporta en múltiples formatos: `.key`, `.crt`, `.pem`, `.cer`, `.csr`, `.pfx`.
+- Ejecutable listo para **Ubuntu**.
+
+## Tecnologías utilizadas
+
+- **Python 3.10**
+- **PyQt5** – Interfaz gráfica
+- **cryptography** – Generación de certificados
+- **PyInstaller** – Empaquetado de ejecutables
+
+- **NOTA**: Si no abre con doble clic, dar permiso de ejecución:
 
 chmod +x dist/CertMakerGUI
+
+<img width="1240" height="976" alt="Captura desde 2026-03-04 01-43-16" src="https://github.com/user-attachments/assets/1bc43183-fb9f-4353-8164-2e87201e67f2" />
+
+
+
