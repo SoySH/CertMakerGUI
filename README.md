@@ -2,19 +2,25 @@
 
 ## 🖥 Compilación desde código fuente
 
-### Ubuntu
+### Ubuntu 22.04.5
 
 1. Instalar dependencias del sistema:
 
 sudo apt update
-sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb1 libx11-xcb1 libxcb-util1 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0 libxcb-xkb1
+sudo apt update && sudo apt install -y \
+    python3-venv python3-pip \
+    libxcb-xinerama0 libxkbcommon-x11-0 libxcb1 libx11-xcb1 \
+    libxcb-util1 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 \
+    libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-shm0 \
+    libxcb-sync1 libxcb-xfixes0 libxcb-xkb1
 
-2. Crear carpeta del proyecto y entrar: 
+2. Crear carpeta como usuario normal y acceder al proyecto: 
 mkdir cert-maker-gui && cd cert-maker-gui
 
 3. Crear y activar entorno virtual:
 
 python -m venv .venv
+
 source .venv/bin/activate
 
 
