@@ -14,10 +14,11 @@ sudo apt update && sudo apt install -y \
     libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-shm0 \
     libxcb-sync1 libxcb-xfixes0 libxcb-xkb1
 
-2. Crear carpeta como usuario normal y acceder al proyecto: 
+2. Crear carpeta como usuario normal y acceder al proyecto:
+
 mkdir cert-maker-gui && cd cert-maker-gui
 
-3. Crear y activar entorno virtual:
+4. Crear y activar entorno virtual:
 
 python -m venv .venv
 
